@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reporte Mensual Octubre 2026 — FMA Brokers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<style>
+:root{
+ --rojo:#AF0217;
+ --rojo-brillante:#ED1C24;
+ --negro:#141414;
+ --hueso:#F8FAFD;
+ --gris:#313131;
+ --gris-suave:#EDEDEF;
+ --gris-linea:#DEDEE2;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Montserrat',sans-serif;font-weight:300;background:var(--gris-suave);color:var(--negro);font-size:16px;line-height:1.7;padding:2rem 1rem}
+.page{max-width:840px;margin:0 auto}
+.cover{background:var(--negro);padding:2.6rem 2.5rem;margin-top:-2rem;margin-bottom:1.25rem;position:relative;left:50%;right:50%;width:100vw;margin-left:-50vw;margin-right:-50vw;overflow:hidden}
+.cover-inner{max-width:840px;margin:0 auto}
+@media(max-width:600px){.cover{padding:2.2rem 1.25rem}}
+.cover-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;position:relative;margin-bottom:26px}
+.cover-logo{font-weight:800;font-size:17px;letter-spacing:.22em;text-transform:uppercase;color:#fff;display:block}
+.cover-meta{text-align:right;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#9A9AA0;line-height:1.9}
+.cover-meta b{color:#fff;font-weight:600}
+.kicker{font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--rojo-brillante);margin-bottom:10px;position:relative}
+.cover h1{font-weight:800;font-size:28px;color:var(--hueso);margin-bottom:6px;position:relative}
+.cover h1 em{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:700;color:#B7B7BD}
+.cover .subtitle{font-weight:300;font-size:13px;color:#C9C9CE;position:relative}
+.card{background:#fff;border-radius:16px;border:.5px solid var(--gris-linea);padding:2rem 2.5rem;margin-bottom:1.25rem}
+@media(max-width:600px){.card{padding:1.5rem 1.25rem}}
+.st{font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--rojo);margin:0 0 14px;border-bottom:2px solid var(--negro);padding-bottom:8px;display:flex;align-items:center;gap:8px}
+.st .n{background:var(--negro);color:#fff;font-weight:700;font-size:11px;width:20px;height:20px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.g{display:grid;gap:10px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:700px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
+.mc{background:var(--hueso);border-radius:8px;padding:12px 14px;border:.5px solid var(--gris-linea)}
+.ml{font-weight:600;font-size:10.5px;letter-spacing:.02em;text-transform:uppercase;color:#767680;margin:0 0 4px}
+.mv{font-weight:800;font-size:21px;color:var(--negro);margin:0}
+.ms{font-weight:300;font-size:11px;color:#767680;margin:4px 0 0}
+.up{color:#3D7A4E}.dn{color:var(--rojo)}
+.bul{display:flex;gap:8px;margin-bottom:10px;font-weight:300;font-size:13px;color:var(--negro);line-height:1.5}
+.bul i{margin-top:3px;flex-shrink:0;font-size:16px;color:var(--rojo)}
+.bul strong{font-weight:600}
+.nb{background:var(--hueso);border-left:3px solid var(--negro);border-radius:0 8px 8px 0;padding:12px 16px;font-weight:300;font-size:13px;color:var(--negro);line-height:1.6;margin-bottom:12px}
+.nb strong{font-weight:600}
+.wb{background:#FBF1E4;border-left:3px solid #B4772A;border-radius:0 8px 8px 0;padding:12px 16px;font-weight:300;font-size:13px;color:var(--negro);line-height:1.6;margin-bottom:12px}
+.wb strong{font-weight:600}
+.wb ul{margin:8px 0 8px 18px}
+.wb li{margin-bottom:4px}
+table.t{width:100%;border-collapse:collapse;font-size:12px}
+table.t th{text-align:left;font-weight:700;font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;color:#767680;padding:6px 8px 8px;border-bottom:2px solid var(--negro);white-space:nowrap}
+table.t td{padding:7px 8px;border-bottom:.5px solid var(--gris-linea);color:var(--negro);vertical-align:top;font-weight:300}
+table.t tr:last-child td{border-bottom:none}
+table.t tr.tot td{border-top:2px solid var(--negro);font-weight:600}
+table.t strong{font-weight:600}
+.scroll{overflow-x:auto}
+.footer-note{font-weight:300;font-size:11px;color:#767680;margin-top:8px}
+.sub-st{font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gris);margin:22px 0 10px;padding-top:16px;border-top:.5px solid var(--gris-linea);display:flex;align-items:center;gap:6px}
+.sub-st i{color:var(--rojo);font-size:14px}
+.sub-st.first{margin-top:6px;border-top:none;padding-top:0}
+.tag{font-size:11.5px;font-weight:600;background:#EAF6EE;border:.5px solid #C9E9D4;border-radius:20px;padding:5px 12px;color:#1a7a3c;display:inline-block;margin:0 4px 6px 0}
+.tag.amber{background:#FBEEDC;border-color:#E8D0AE;color:#8A5A17}
+.tag.red{background:#FBE6E8;border-color:#EDBFC4;color:#AF0217}
+.tag.grey{background:#EDEDEF;border-color:#DEDEE2;color:#515159}
+.pill{font-size:10.5px;font-weight:600;border-radius:20px;padding:2px 9px;display:inline-block;white-space:nowrap;background:#EAF6EE;color:#1a7a3c}
+.pill.amber{background:#FBEEDC;color:#8A5A17}
+.pill.red{background:#FBE6E8;color:#AF0217}
+.steps{list-style:none;margin:10px 0 0;display:grid;gap:8px}
+.steps li{display:flex;gap:8px;font-weight:300;font-size:13px;color:var(--negro);line-height:1.5}
+.steps li i{margin-top:3px;flex-shrink:0;font-size:15px;color:#3D7A4E}
+.bar{background:var(--gris-suave);border-radius:4px;height:8px;min-width:90px}
+.bar span{display:block;height:8px;border-radius:4px;background:var(--rojo)}
+hr.div{border:none;border-top:.5px solid var(--gris-linea);margin:1.2rem 0}
+p.lead{font-size:13px;font-weight:300;line-height:1.6;margin-bottom:12px}
+p.lead strong{font-weight:600}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="cover"><div class="cover-inner">
+ <div class="cover-top">
+  <span class="cover-logo">Shake Again</span>
+  <div class="cover-meta"><b>FMA Brokers</b><br>Reporte de Medios · Google Ads + Meta Ads</div>
+ </div>
+ <p class="kicker">Shake Again</p>
+ <h1>Reporte mensual — <em>Octubre 2026</em></h1>
+ <p class="subtitle">Mes cerrado (31 días) · Primer mes de las campañas: línea base para los próximos meses</p>
+</div></div>
+
+<div class="card">
+ <div class="st"><span class="n">✓</span>Insights del mes</div>
+ <div class="bul"><i class="ti ti-chart-bar"></i><span><strong>Panorama:</strong> octubre fue el primer mes de campañas en Meta y de Performance Max en Google, así que no hay un mes anterior comparable y este reporte fija la línea base. Inversión total: <strong>$1.184.673</strong> (72% Meta, 28% Google).</span></div>
+ <div class="bul"><i class="ti ti-target-arrow"></i><span><strong>Resultado real en leads:</strong> Meta informó 127 conversaciones iniciadas, pero a la bandeja de FMA llegaron 76; solo 3 continuaron y <strong>ninguna cerró una cotización</strong>, ni en octubre ni a comienzos de noviembre. La tasa de conversión real fue <strong>0%</strong>.</span></div>
+ <div class="bul"><i class="ti ti-photo"></i><span><strong>Anuncios:</strong> los de cross-sell (Reel y carrusel para clientes actuales) tuvieron el mejor CTR y el menor costo por conversación; la mayoría de los estáticos del 1/10 y el Reel “volvió la luz” fueron los más caros.</span></div>
+ <div class="bul"><i class="ti ti-brand-google"></i><span><strong>Google:</strong> 587 conversiones por $329.950, pero cada una es un clic al botón de WhatsApp o a la landing, no un contacto confirmado. La campaña de marca recibe mucho tráfico de otras aseguradoras y de motos/autos; con la búsqueda “fma brokers” hubo apenas 10 impresiones.</span></div>
+</div>
+
+<div class="card">
+ <div class="st"><span class="n">✓</span>KPIs por plataforma</div>
+
+ <div class="sub-st first"><i class="ti ti-brand-meta"></i>Meta Ads · Conversaciones de WhatsApp</div>
+ <div class="g g3" style="margin-bottom:6px">
+  <div class="mc"><p class="ml">Inversión</p><p class="mv">$854.723</p><p class="ms">Campaña Leads_Whatsapp</p></div>
+  <div class="mc"><p class="ml">Conversaciones iniciadas</p><p class="mv">127</p><p class="ms">Según Meta</p></div>
+  <div class="mc"><p class="ml">Costo por conversación</p><p class="mv">$6.730</p><p class="ms">Según Meta · bajó 48% entre la semana del 4/10 y la del 25/10</p></div>
+  <div class="mc"><p class="ml">Alcance</p><p class="mv">58.849</p><p class="ms">Audiencias cerradas de FMA</p></div>
+  <div class="mc"><p class="ml">Frecuencia</p><p class="mv">5,7</p><p class="ms">Veces que cada persona vio los anuncios</p></div>
+  <div class="mc"><p class="ml">CTR (clic en enlace)</p><p class="mv">0,85%</p><p class="ms">2.870 clics en enlace</p></div>
+ </div>
+ <div class="scroll"><table class="t"><thead><tr><th>Audiencia</th><th>Inversión</th><th>Alcance</th><th>Frecuencia</th><th>CTR enlace</th><th>Conv.</th><th>Costo/conv.</th></tr></thead><tbody><tr><td><strong>Base fría (listado cerrado)</strong></td><td>$719.071</td><td>49.455</td><td>6,4</td><td>0,72%</td><td>85</td><td>$8.460</td></tr><tr><td><strong>Cross sell (clientes actuales)</strong></td><td>$135.652</td><td>11.395</td><td>1,7</td><td>3,07%</td><td>42</td><td>$3.230</td></tr><tr class="tot"><td>Total Meta</td><td>$854.723</td><td>58.849*</td><td>5,7</td><td>0,85%</td><td>127</td><td>$6.730</td></tr></tbody></table></div>
+ <p class="footer-note">*El alcance total no suma ambas audiencias porque hay personas en las dos listas. Conversaciones y costos son los informados por Meta.</p>
+
+ <div class="sub-st"><i class="ti ti-brand-google"></i>Google Ads · Búsqueda de marca + Performance Max</div>
+ <div class="g g3" style="margin-bottom:6px">
+  <div class="mc"><p class="ml">Inversión</p><p class="mv">$329.950</p><p class="ms">2 campañas activas</p></div>
+  <div class="mc"><p class="ml">Conversiones</p><p class="mv">587</p><p class="ms">Clics a WhatsApp y a la landing</p></div>
+  <div class="mc"><p class="ml">Costo por conversión</p><p class="mv">$562</p><p class="ms">Promedio de ambas campañas</p></div>
+  <div class="mc"><p class="ml">Clics</p><p class="mv">4.044</p><p class="ms">CPC $81,59</p></div>
+  <div class="mc"><p class="ml">Impresiones</p><p class="mv">60.066</p><p class="ms">CTR 6,7%</p></div>
+  <div class="mc"><p class="ml">Tráfico desde celular</p><p class="mv">98%</p><p class="ms">De los clics del mes</p></div>
+ </div>
+ <div class="scroll"><table class="t"><thead><tr><th>Campaña</th><th>Inversión</th><th>Clics</th><th>CTR</th><th>CPC</th><th>Conv.</th><th>Costo/conv.</th></tr></thead><tbody><tr><td><strong>Búsqueda de marca</strong></td><td>$180.253</td><td>175</td><td>3,42%</td><td>$1.030</td><td>26</td><td>$6.933</td></tr><tr><td><strong>Performance Max</strong> (desde mediados de mes)</td><td>$149.697</td><td>3.869</td><td>7,04%</td><td>$39</td><td>561</td><td>$267</td></tr><tr class="tot"><td>Total Google</td><td>$329.950</td><td>4.044</td><td>6,73%</td><td>$82</td><td>587</td><td>$562</td></tr></tbody></table></div>
+ <p class="footer-note">Una conversión de Google es un clic al botón de WhatsApp o a la landing de cotización, no una conversación confirmada.</p>
+</div>
+
+<div class="card">
+ <div class="st"><span class="n">✓</span>Rendimiento de anuncios</div>
+ <div class="sub-st first"><i class="ti ti-brand-meta"></i>Meta · Ordenados por costo por conversación</div>
+ <div class="scroll"><table class="t"><thead><tr><th>Anuncio</th><th>Inversión</th><th>CTR enlace</th><th>Conv.</th><th>Costo/conv.</th><th>Lectura</th></tr></thead><tbody><tr><td><strong>Reel · Cross-sell: más protección</strong> <span style='color:#767680;font-size:11px'>(16/10)</span></td><td>$93.173</td><td>3,22%</td><td>34</td><td>$2.740</td><td><span class="pill ">Mejor costo</span></td></tr><tr><td><strong>Carrusel · Cross-sell: ya contás con nuestra protección</strong> <span style='color:#767680;font-size:11px'>(16/10)</span></td><td>$42.480</td><td>2,72%</td><td>8</td><td>$5.310</td><td><span class="pill ">Eficiente</span></td></tr><tr><td><strong>Estático · Tu hogar protegido hoy</strong> <span style='color:#767680;font-size:11px'>(1/10)</span></td><td>$89.656</td><td>0,58%</td><td>16</td><td>$5.604</td><td><span class="pill ">Eficiente</span></td></tr><tr><td><strong>Carrusel · Cercanía con persona real</strong> <span style='color:#767680;font-size:11px'>(16/10)</span></td><td>$277.047</td><td>1,04%</td><td>40</td><td>$6.926</td><td><span class="pill amber">Mayor volumen</span></td></tr><tr><td><strong>Estático · Cuánto sale proteger tu casa</strong> <span style='color:#767680;font-size:11px'>(1/10)</span></td><td>$50.572</td><td>0,65%</td><td>5</td><td>$10.114</td><td><span class="pill amber">A revisar</span></td></tr><tr><td><strong>Estático · Tu casa cubierta</strong> <span style='color:#767680;font-size:11px'>(1/10)</span></td><td>$181.407</td><td>0,49%</td><td>16</td><td>$11.338</td><td><span class="pill amber">A revisar</span></td></tr><tr><td><strong>Estático · Protege lo que más te importa</strong> <span style='color:#767680;font-size:11px'>(1/10)</span></td><td>$59.509</td><td>0,72%</td><td>5</td><td>$11.902</td><td><span class="pill amber">A revisar</span></td></tr><tr><td><strong>Estático · Tu casa segura</strong> <span style='color:#767680;font-size:11px'>(1/10)</span></td><td>$26.522</td><td>0,58%</td><td>2</td><td>$13.261</td><td><span class="pill amber">A revisar</span></td></tr><tr><td><strong>Reel · Seguro hogar: volvió la luz</strong> <span style='color:#767680;font-size:11px'>(16/10)</span></td><td>$34.357</td><td>0,41%</td><td>1</td><td>$34.357</td><td><span class="pill red">Pausar</span></td></tr></tbody></table></div>
+ <p class="footer-note">Costos según las conversaciones informadas por Meta. Los anuncios del 16/10 rindieron mejor que los del 1/10 ($5.386 vs. $9.265 por conversación), aunque los estáticos incluyen la fase de aprendizaje.</p>
+
+ <div class="sub-st"><i class="ti ti-brand-google"></i>Google</div>
+ <p class="lead">En la búsqueda de marca, un solo anuncio concentra el 99,7% de las impresiones. Performance Max pasó de 8 conversaciones en su semana de lanzamiento (11–17/10) a 344 en la última semana de octubre, casi todas desde celular.</p>
+</div>
+
+<div class="card">
+ <div class="st"><span class="n">✓</span>Calidad de los leads</div>
+ <div class="g g4" style="margin-bottom:12px">
+  <div class="mc"><p class="ml">Iniciadas</p><p class="mv">127</p><p class="ms">Conversaciones según Meta</p></div>
+  <div class="mc"><p class="ml">Llegaron a la bandeja</p><p class="mv">76</p><p class="ms">Conversaciones de Meta en FMA</p></div>
+  <div class="mc"><p class="ml">Continuaron</p><p class="mv">3</p><p class="ms">3,9% de las que llegaron</p></div>
+  <div class="mc"><p class="ml">Cotizaciones cerradas</p><p class="mv">0</p><p class="ms">Conversión real: 0%</p></div>
+ </div>
+ <div class="wb"><strong>Tasa de conversión real: 0%.</strong> De las 76 conversaciones que llegaron desde Meta, solo 3 continuaron y ninguna cerró una cotización. Por conversación recibida, el costo fue de $11.246, frente a los $6.730 que informa Meta.</div>
+</div>
+
+<div class="card">
+ <div class="st"><span class="n">✓</span>Optimizaciones y próximos pasos</div>
+ <div class="sub-st first"><i class="ti ti-brand-meta"></i>Meta</div>
+ <ul class="steps">
+  <li><i class="ti ti-check"></i><span><strong>Concentrar inversión en cross-sell y pausar lo que no rinde.</strong> El Reel y el carrusel de cross-sell costaron $2.740 y $5.310 por conversación; el Reel “volvió la luz” costó $34.357 y casi todos los estáticos del 1/10 superaron los $10.000.</span></li>
+  <li><i class="ti ti-check"></i><span><strong>Precargar un mensaje de Hogar en WhatsApp.</strong> Casi la mitad de las conversaciones llegó con un mensaje genérico de “más información”. Un mensaje como “Me interesa cotizar un Seguro de Hogar” filtra mejor la intención desde el primer contacto.</span></li>
+  <li><i class="ti ti-check"></i><span><strong>Bajar el desgaste de la audiencia.</strong> La base fría llegó a frecuencia 6,4: renovar creatividades y priorizar Facebook sobre Instagram, que costó 2,4 veces más por conversación.</span></li>
+ </ul>
+ <div class="sub-st"><i class="ti ti-brand-google"></i>Google</div>
+ <ul class="steps">
+  <li><i class="ti ti-check"></i><span><strong>Limpiar la campaña de marca con negativas:</strong> otras aseguradoras, marcas de autos, motos y consultas de siniestros o descarga de póliza.</span></li>
+  <li><i class="ti ti-check"></i><span><strong>Medir un evento más fuerte en Performance Max.</strong> Hoy optimiza hacia el clic a WhatsApp (467 clics en el mes); pasar a mensaje enviado o formulario completado acerca la señal a un contacto real.</span></li>
+  <li><i class="ti ti-check"></i><span><strong>Probar 2 o 3 variantes de anuncio de búsqueda</strong> con foco explícito en Seguro de Hogar.</span></li>
+ </ul>
+ <div class="sub-st"><i class="ti ti-calendar-event"></i>Noviembre</div>
+ <ul class="steps">
+  <li><i class="ti ti-check"></i><span><strong>Seguir cada conversación hasta la cotización</strong> para medir la conversión real por campaña y por anuncio, y reasignar inversión según ese dato.</span></li>
+ </ul>
+</div>
+<div style="text-align:center;padding:2rem 0 1rem;font-size:11px;color:#9A9AA0;letter-spacing:.04em">Shake Again · Reporte de Medios · FMA Brokers · Octubre 2026</div>
+
+</div>
+</body>
+</html>
